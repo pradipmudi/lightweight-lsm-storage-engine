@@ -12,15 +12,23 @@ import java.util.Comparator;
 import java.util.List;
 
 // Represents the SSTable-based storage system
-class SSTableStorage {
+public class SSTableStorage {
     private static final Logger logger = LoggerFactory.getLogger(SSTableStorage.class);
-    private Memtable memtable;
-    private List<SSTable> sstables;
+    private final Memtable memtable;
+    private final List<SSTable> sstables;
 
     public SSTableStorage(int memtableThreshold) {
         this.memtable = new Memtable(memtableThreshold);
         this.sstables = new ArrayList<>();
         logger.info("Created SSTableStorage with memtable threshold: {}", memtableThreshold);
+    }
+
+    public Memtable getMemtable() {
+        return memtable;
+    }
+
+    public List<SSTable> getSstables() {
+        return sstables;
     }
 
     public void write(String key, String value) {
