@@ -1,6 +1,6 @@
-# SSTable Implementation
+# LSM tree Implementation
 
-This Java project provides a basic implementation of an SSTable-based storage system. SSTables (Sorted String Tables) are critical data structures used in distributed databases and storage systems for efficient storage and retrieval of key-value pairs.
+This Java project provides a basic implementation of an LSM tree-based storage system. SSTables (Sorted String Tables) are critical data structures used in distributed databases and storage systems for efficient storage and retrieval of key-value pairs.
 
 ## Features
 
