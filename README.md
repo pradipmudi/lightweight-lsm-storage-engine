@@ -42,4 +42,4 @@ storage.compact();
 ```
 
 ## Blog
-I also discuss about SSTable in details in my blog. Please feel free to explore the blog here: https://pradipmudi.substack.com/p/write-heavy-systems-sstables-sorted
+I also discuss about SSTable in details in my blog. Please feel free to explore the blog here: [https://pradipmudi.substack.com/p/write-heavy-systems-sstables-sorted](https://pradipmudi.substack.com/p/write-heavy-systems-sstables-sorted)
